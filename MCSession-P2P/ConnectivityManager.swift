@@ -158,6 +158,7 @@ extension ConnectivityManager: MCNearbyServiceBrowserDelegate {
         print("\(peerID) 와 연결해제")
         session.cancelConnectPeer(peerID)
         connectedPeers = session.connectedPeers
+        connectedDevices = connectedDevices.filter { peerID.displayName != $0.modelName }
     }
 }
 
