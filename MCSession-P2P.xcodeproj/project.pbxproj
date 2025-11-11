@@ -10,9 +10,22 @@
 		00B009462EC3AA4A00067FF3 /* MCSession-P2P.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MCSession-P2P.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		00B009582EC3AB2500067FF3 /* Exceptions for "MCSession-P2P" folder in "MCSession-P2P" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 00B009452EC3AA4A00067FF3 /* MCSession-P2P */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		00B009482EC3AA4A00067FF3 /* MCSession-P2P */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				00B009582EC3AB2500067FF3 /* Exceptions for "MCSession-P2P" folder in "MCSession-P2P" target */,
+			);
 			path = "MCSession-P2P";
 			sourceTree = "<group>";
 		};
@@ -256,6 +269,8 @@
 				DEVELOPMENT_TEAM = 7UL55F8A57;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MCSession-P2P/Info.plist";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "멀티피어 통신 허용";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -288,6 +303,8 @@
 				DEVELOPMENT_TEAM = 7UL55F8A57;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MCSession-P2P/Info.plist";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "멀티피어 통신 허용";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
